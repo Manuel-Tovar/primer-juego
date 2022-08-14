@@ -161,7 +161,7 @@ body {
 }
 
 @media (max-width: 360px) {
-    .tarjetas, .tarjetas-ataques, .ataques, .ataque-jugador {
+    .tarjetas, .tarjetas-ataques {
       flex-direction: column;
       display: flex;
     }
