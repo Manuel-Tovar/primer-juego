@@ -161,7 +161,7 @@ body {
 }
 
 @media (max-width: 600px) {
-    .tarjetas, .tarjetas-ataques, .ataques, .ataque-jugador, .boton-de-ataque {
+    .tarjetas, .tarjetas-ataques, .ataque-jugador, .boton-de-ataque {
       flex-direction: column;
       display: flex;
     }
@@ -172,6 +172,14 @@ body {
 
     .titulo {
         font-size: 40px;
+    }
+
+}
+
+@media ( max-width: 600px) {
+
+    .ataques {
+        grid-gap: 20px;
     }
 
 }
