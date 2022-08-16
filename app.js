@@ -169,15 +169,15 @@ function combate() {
     
     if(ataqueEnemigo == ataqueJugador) {
         crearMensaje(" 👍EMPATE👍 ")
-    } else if(ataqueJugador == "PIEDRA👊" && ataqueEnemigo == " TIJERA✌ ") {
+    } else if(ataqueJugador == "PIEDRA👊" && ataqueEnemigo == "TIJERA✌") {
         crearMensaje(" 😲GANASTE🎉 " )
         vidasEnemigo--
         spanVidasEnemigo.innerHTML = (vidasEnemigo + " Vidas" )
-    } else if(ataqueJugador == " PAPEL✋" && ataqueEnemigo == " PIEDRA👊 ") {
+    } else if(ataqueJugador == "PAPEL✋" && ataqueEnemigo == "PIEDRA👊") {
         crearMensaje(" 😁GANASTE🎉 " )
         vidasEnemigo--
         spanVidasEnemigo.innerHTML = (vidasEnemigo + " Vidas")
-    } else if(ataqueJugador == " TIJERA✌ " && ataqueEnemigo == " PAPEL✋ ") {
+    } else if(ataqueJugador == "TIJERA✌" && ataqueEnemigo == "PAPEL✋") {
         crearMensaje(" 😜GANASTE🎉 ")
         vidasEnemigo--
         spanVidasEnemigo.innerHTML = (vidasEnemigo + " Vidas" )
