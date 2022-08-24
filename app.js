@@ -119,7 +119,7 @@ function seleccionarJugador() {
         spanJugador.innerHTML = jugador[0].nombre + jugador[0].apellido
     } else if (inputAlicia.checked) {
         spanJugador.innerHTML = jugador[2].nombre + jugador[2].apellido
-    } else {
+    } else {      
         alert('Selecciona un Jugador 😒')
         reiniciarJuego()
     }
