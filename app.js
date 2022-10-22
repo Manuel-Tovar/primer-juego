@@ -36,8 +36,8 @@ let inputManuel
 let inputAlicia 
 let ataqueJugador
 let ataqueEnemigo
-let vidasJugador = 3
-let vidasEnemigo = 3 
+let vidasJugador = 5
+let vidasEnemigo = 5 
 let enemigo = []
 
 class Jugadores {
@@ -106,6 +106,8 @@ function iniciarJuego() {
     botonReiniciar.addEventListener('click', reiniciarJuego)
 
 }
+
+window.addEventListener('load', iniciarJuego)
 
 function seleccionarJugador() {
 
@@ -208,10 +210,12 @@ function crearMensaje(resultado) {
     nuevoAtaqueJugador.innerHTML = ataqueJugador
     nuevoAtaqueEnemigo.innerHTML = ataqueEnemigo
 
-    sectionAtaqueJugador.appendChild(nuevoAtaqueJugador)
-    sectionAtaqueEnemigo.appendChild(nuevoAtaqueEnemigo)
+    sectionAtaqueJugador.innerHTML = ataqueJugador
+    sectionAtaqueEnemigo.innerHTML = ataqueEnemigo
     
+
 }
+
 
 function crearMensajeFinal(resultadoFinal) {
 
@@ -234,4 +238,4 @@ function aleatorio(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min)
 }
 
-window.addEventListener('load', iniciarJuego)
+

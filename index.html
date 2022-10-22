@@ -28,48 +28,43 @@
         <!-- Inicia la Seccion de Seleccionar Ataque --> 
         <section id="seleccionar-ataque">
                 
-                    <h1 class="titulo">Piedra👊, Papel✋ o Tijera✌ </h1>
+                <h1 class="titulo">Piedra👊, Papel✋ o Tijera✌ </h1>
                     
-                    <h2 class="subtitulos">Elige tu Ataque : </h2>
-                    
-                        <div>
-
-                            <button id="boton-piedra" class="boton-de-ataque">Piedra👊</button>
-                            <button id="boton-papel" class="boton-de-ataque" >Papel✋</button>
-                            <button id="boton-tijera" class="boton-de-ataque">Tijera✌</button>
-
-                        </div>
-            
-                
-                    <div id="mensajes">
-
-                        <p id="resultado"> Mucha Suerte 🎉</p>
-                    
-                        <!-- Inicia la Seccion del Boton Reiniciar --> 
-                        <section id="reiniciar">
-                            <button id="boton-reiniciar">Reiniciar</button>
-                        </section>    
-                        <!-- Finaliza la Seccion del Boton Reiniciar  --> 
-                    </div>
+                <h2 class="subtitulos">Elige tu Ataque : </h2>
 
                 <div class="ataques"> <!-- Imprime la Informacion del ataque del jugador  --> 
 
                     <div class="ataque-jugador">
-                        
-                        <p id="eleccion-jugador"> </p>
-                        <p id="vidas-jugador"> 3 Vidas </p>
-                        <p id="ataques-del-jugador"> Has Elegido: </p>
-
+                        <h2 class="jugador-titulo" >Jugador</h2>
+                        <h2 id="eleccion-jugador"> </h2>
+                        <h2 id="vidas-jugador"> 5 Vidas </h2>
+                        <h3>Has Elegido:</h3>
+                        <h2 id="ataques-del-jugador"> </h2>
                     </div>
-                    
+
+                    <div id="mensajes">
+                        <p id="resultado"> Mucha Suerte 🎉</p>
+                            <!-- Inicia la Seccion del Boton Reiniciar --> 
+                        <section id="reiniciar">
+                            <button id="boton-reiniciar">Reiniciar</button>
+                        </section>    
+                            <!-- Finaliza la Seccion del Boton Reiniciar  --> 
+                    </div>
+
                     <div class="ataque-enemigo"> <!-- Imprime la Informacion del ataque del enemigo --> 
-
-                        <p id="eleccion-enemigo"> </p>
-                        <p id="vidas-enemigo"> 3 Vidas </p>
-                        <p id="ataques-del-enemigo"> Enemigo Eligio: </p>
-                     
+                        <h2>Enemigo</h2>
+                        <h2 id="eleccion-enemigo"> </h2>
+                        <h2 id="vidas-enemigo"> 5 Vidas </h2>
+                        <h3>Enemigo Eligio:</h3>
+                        <h2 id="ataques-del-enemigo"> </h2>
                     </div>
-
+    
+                </div>
+                    
+                <div>
+                    <button id="boton-piedra" class="boton-de-ataque">Piedra👊</button>
+                    <button id="boton-papel" class="boton-de-ataque" >Papel✋</button>
+                    <button id="boton-tijera" class="boton-de-ataque">Tijera✌</button>
                 </div>
         </section>
         <!-- Finaliza la Seccion de Seleccionar Ataque --> 
