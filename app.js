@@ -212,8 +212,6 @@ function crearMensaje(resultado) {
 
     sectionAtaqueJugador.innerHTML = ataqueJugador
     sectionAtaqueEnemigo.innerHTML = ataqueEnemigo
-    
-
 }
 
 

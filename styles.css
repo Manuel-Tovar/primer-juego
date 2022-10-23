@@ -177,29 +177,52 @@ body {
     color: #673ab7;
 }
 
-
-
-
 @media (max-width: 600px) {
-    .tarjetas, .tarjetas-ataques, .ataque-jugador, .boton-de-ataque {
-      flex-direction: column;
+    .tarjetas, .tarjetas-ataques {
       display: flex;
+      flex-direction: column;
+      
     }
-    
-}
 
-@media ( max-width: 600px ) {
-
-    .titulo {
+    .titulo, .ataque-enemigo h3, .ataque-jugador h3 {
         display: none;
     }
-
-}
-
-@media ( max-width: 600px) {
-
-    .ataques {
-        grid-gap: 20px;
+    
+    .ataque-jugador, .ataque-enemigo {
+        margin: 0px;
+        height: 240px;
+        padding: 0px;
+        width: 32%;
+        font-size: 12px;
     }
 
+    .ataques {
+        display: flex;
+        margin: 0;
+        width: 100%;
+        justify-content: center;
+    }
+
+    #mensajes, #resultado {
+        padding: 0px;
+        margin: 0;
+        width: 140px;
+        font-size: 18px;
+        margin-left: 10px;
+        margin-right: 8px;
+    }
+
+    .botones-ataque {
+        display: flex;
+    }
+
+    #eleccion-jugador, #eleccion-enemigo, #eleccion-jugador, #eleccion-enemigo, #vidas-jugador, #vidas-enemigo, #ataques-del-jugador, #ataques-del-enemigo {
+        margin: 10px;
+    }
+
+    #boton-reiniciar {
+        width: 106px;
+        height: 38px;
+        margin-top: 20px;
+    }
 }
