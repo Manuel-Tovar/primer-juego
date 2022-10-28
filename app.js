@@ -189,7 +189,15 @@ function combate() {
         spanVidasJugador.innerHTML = (vidasJugador + " Vidas")
     }
 
+    
+    if (vidasEnemigo == 2 ) {
+        spanVidasEnemigo.style.color = "red" 
+    }else if  (vidasJugador == 2) {
+        spanVidasJugador.style.color = "red"
+    }
+    
     revisarVidas()
+
 }
 
 function revisarVidas() {
